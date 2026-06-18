@@ -5,15 +5,16 @@ Déploiement d'une infrastructure cloud minimale sur Amazon Web Services (AWS) e
 
 ---
 
-## 🛡️ Architecture & Sécurité implémentée
+##  Architecture & Sécurité implémentée
 
 ### 1. Gestion des Accès (IAM)
 * **Principe appliqué** : Isolation du compte racine (Root) et authentification forte.
 * **Actions** : Création d'un groupe d'administration `AdminGroup` associé à la politique `AdministratorAccess`. Liaison de l'utilisateur personnalisé `Ife`. Activation obligatoire de l'authentification multi-facteur (MFA).
 
-#### 📸 Preuve de configuration IAM & MFA :
+####  Preuve de configuration IAM & MFA :
 
-![IAM User & MFA Status]()
+![IAM User & MFA Status](docs/iam-mfa.png)
+
 
 ---
 
